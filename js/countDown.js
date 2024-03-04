@@ -1,5 +1,5 @@
 function countdown() {
-    const endDate = new Date("10/03/2024");
+    const endDate = new Date("12/24/2024");
     const currentDate = new Date();
     
     const totalSeconds = (endDate - currentDate) / 1000;

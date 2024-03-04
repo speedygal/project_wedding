@@ -2,10 +2,8 @@ function updateLinks(passcode) {
   var links = document.querySelectorAll(".nav-links a");
   if (passcode === "passcode1") {
     links[1].setAttribute("href", "eventDetails.html");
-    links[2].setAttribute("href", "location.html");
   } else if (passcode === "passcode2") {
     links[1].setAttribute("href", "alternate_eventDetails.html");
-    links[2].setAttribute("href", "alternate_location.html");
   }
 }
 
@@ -42,7 +40,7 @@ window.onload = function() {
 function checkPin() {
   var pinInput = document.getElementById("pin-input");
   var pin = pinInput.value;
-  var passcode1 = "1109";
+  var passcode1 = "0000";
   var passcode2 = "1234";
 
   if (pin === passcode1 || pin === passcode2) {
